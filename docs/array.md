@@ -62,77 +62,77 @@ Below are all the methods included, excluded and provided as extra from the Ruby
     Same as concat except it's applied to the current array
     
     ```coffeescript
-    [1,2,3].concat$ [4,5], 6 // [1,2,3,4,5,6]
+    [1,2,3].concat$ [4,5], 6 # [1,2,3,4,5,6]
     ```
     
   * swap: (index1, index2)
     Swaps 2 values within the current array at the given indexes
     
     ```coffeescript
-    [1,2,3].swap 0,2 // [3,2,1]
+    [1,2,3].swap 0,2 # [3,2,1]
     ```
   
   * remove: (values...)
     Removes the set of values from the current array
     
     ```coffeescript
-    [1,2,3].remove 1,2 // [3]
+    [1,2,3].remove 1,2 # [3]
     ```
 
   * clone
     Clones the current array
     
     ```coffeescript
-    a = [1,2,3]; a.clone() is a // false
+    a = [1,2,3]; a.clone() is a # false
     ```
     
   * intersect: (values...)
     Calculates the intersection for a set of values or arrays
     
     ```coffeescript
-    [1,2,3].interesct [1,4], 2 // [1,2]
+    [1,2,3].interesct [1,4], 2 # [1,2]
     ```
   
   * diff: (values...)
     Calculates the difference between a set of values or arrays
     
     ```coffeescript
-    [1,2,3].diff [1,4], 2 // [3]
+    [1,2,3].diff [1,4], 2 # [3]
     ```
   
   * union: (values...)
     Finds the union between a set of values or arrays. (same as: array.concat(values...).uniq())
     
     ```coffeescript
-    [1,2,3].union [1,4], 2 // [1,2,3,4]
+    [1,2,3].union [1,4], 2 # [1,2,3,4]
     ```
     
   * chunk: (size)
     Splits the array into chunks of a certain size and returns the new array
     
     ```coffeescript
-    [1,2,3,4,5,6].chunk 2 // [[1,2], [3,4], [5,6]]
+    [1,2,3,4,5,6].chunk 2 # [[1,2], [3,4], [5,6]]
     ```
   
   * chunk: (size)
     Splits the current array into chunks of a certain size
 
     ```coffeescript
-    [1,2,3,4,5,6].chunk 2 // [[1,2], [3,4], [5,6]]
+    [1,2,3,4,5,6].chunk 2 # [[1,2], [3,4], [5,6]]
     ```
     
   * invoke: (callback, args...)
     Invokes a function on all items within the array and returns a new array with the results from that function call
     
     ```coffeescript
-    [1.2, 2.5, 3.8, 4.1].invoke 'round' // [1,3,4,4]
+    [1.2, 2.5, 3.8, 4.1].invoke 'round' # [1,3,4,4]
     ```
 
   * invoke$: (callback, args...)
     Same as invoke except the returned values replace the originals and the current array is returned
 
     ```coffeescript
-    [1.2, 2.5, 3.8, 4.1].invoke 'round' // [1,3,4,4]
+    [1.2, 2.5, 3.8, 4.1].invoke 'round' # [1,3,4,4]
     ```
     
   * pluck: (properties...)
