@@ -158,6 +158,7 @@ Below are all the methods included, excluded and provided as extra from the Ruby
   * take: 'first'
   * ary: 'slice'
   * ary$: 'slice$'
+  * contains: 'include'
 
 ## Excluded
  * frozen

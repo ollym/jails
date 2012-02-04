@@ -290,5 +290,6 @@ alias Array.prototype,
   take: 'first'
   ary: 'slice'
   ary$: 'slice$'
-  remove: 
+  remove: 'delete'
+  contains: 'include'
   
