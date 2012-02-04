@@ -1,5 +1,5 @@
 #Welcome to Jails
-Jails brings the essential parts of the Ruby Standard Library (Std-lib) and core extensions from Ruby on Rails to give you the missing library for CoffeeScript. Obviously some things are not possible but most is and has been achieved.
+Jails brings the essential parts of the Ruby Standard Library (Std-lib) and core extensions from Ruby on Rails to give you the missing library for CoffeeScript.
 
 ## Coding Standards
 

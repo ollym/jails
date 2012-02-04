@@ -1,7 +1,7 @@
-### Array
+# Array
 Below are all the methods included, excluded and provided as extra from the Ruby (on Rails) library.
 
-#### Included
+## Included
   * assoc
   * at: (index)
   * clear
@@ -57,7 +57,7 @@ Below are all the methods included, excluded and provided as extra from the Ruby
   * values_at: (selectors...)
   * zip: (arrays...)
 
-### Extras
+## Extras
   * concat$: (values...)
     Same as concat except it's applied to the current array
     
@@ -146,7 +146,7 @@ Below are all the methods included, excluded and provided as extra from the Ruby
     [a,b,c].pluck 'name', 'age'
     ```
         
-#### Aliases
+## Aliases
   * collect: 'map'
   * collect$: 'map$'
   * each: 'forEach'
@@ -159,7 +159,7 @@ Below are all the methods included, excluded and provided as extra from the Ruby
   * ary: 'slice'
   * ary$: 'slice$'
 
-#### Excluded
+## Excluded
  * frozen
  * hash
  * product
